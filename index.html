@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="source/style.css">
+</head>
+<body>
+  <section class="banner" id="banner">
+    <div class="header">
+      <div class="logo">Food<span>.</span> </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#expert">Expert</a></li>
+          <li><a href="#test">Testimonaials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="menuToggle" onclick="menuToggle()"></div>
+    </div>
+      <div class="bannerContent">
+        <h2>Always Choose Good</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, voluptate sint odio atque repellendus eveniet voluptates amet voluptas pariatur harum dignissimos in architecto omnis, odit porro sapiente minus, ad molestias?</p>
+        <a href="#">Our menu</a>
+      </div>
+    
+  </section>
+  <section class="about" id="about">
+    <div class="about1">
+      <h2><span>A</span>bout Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquid quos accusantium officiis maxime excepturi incidunt libero necessitatibus distinctio. Alias, quaerat. Provident ipsam accusamus, sint quibusdam inventore temporibus? Blanditiis et fugiat tenetur eius architecto molestiae sit quisquam, ipsum voluptatibus delectus tempora veritatis est saepe dolores! Atque odio voluptatum dolore impedit corrupti rerum debitis quisquam tempora quia minus dolorem, porro explicabo tenetur nemo, assumenda consequuntur non ad rem eveniet eaque deleniti recusandae enim distinctio praesentium. Sapiente error neque 
+        <br>
+      <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis aliquid atque quibusdam nobis iusto quisquam, exercitationem eius cumque, officiis quo necessitatibus ab perspiciatis possimus nostrum. Architecto ipsum repudiandae labore iusto! </p>
+    </div>
+    <div class="about2">
+      <img src="./img/img1.jpg" alt="Pizza" width="600" height="400">
+    </div>
+  </section>
+  <section class="menu" id="menu">
+    <h2>Our <span>M</span>enu</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati!</p>
+    <div class="boxes">
+      <div><img src="./img/menu1.jpg" alt=""><p>Special Salads</p></div>
+      <div><img src="./img/menu2.jpg" alt=""><p>Special soup</p></div>
+      <div><img src="./img/menu3.jpg" alt=""><p>Special Pasta</p> </div>
+      <div><img src="./img/menu4.jpg" alt=""><p>Special Salads</p> </div>
+      <div><img src="./img/menu5.jpg" alt=""><p>Special Soup</p> </div>
+      <div><img src="./img/menu6.jpg" alt=""><p>Special Pasta</p> </div>
+    </div>
+    <a href="">View all</a>
+  </section>
+  <div class="expert" id="expert">
+    <h2>Our kitchen <span>E</span>xpert</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit.</p>
+    <div class="contentExpert">
+      <div><img src="./img/expert1.jpg" alt="expert"><p>Someone Famous</p></div>
+      <div><img src="./img/expert2.jpg" alt="expert"><p>Someone Famous</p></div>
+      <div><img src="./img/expert3.jpg" alt="expert"><p>Someone Famous</p></div>
+      <div><img src="./img/expert4.jpg" alt="expert"><p>Someone Famous</p></div>
+    </div>
+  </div>
+  <div class="test" id="test">
+    <h2>They <span>S</span>aid About Us</h2>
+    <p class="text0">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="contentTest">
+      <div>
+        <img src="./img/testi1.jpg" alt="">
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repudiandae doloribus iure, expedita est repellendus ipsum consequuntur facere eum reprehenderit voluptates nesciunt nobis harum sunt voluptatem suscipit tempore? Fuga et tempore repellendus obcaecati officia at beatae incidunt placeat dolorum pariatur.</p>
+        <p class="text1">Someone Famouse</p>
+      </div>
+      <div>
+        <img src="./img/testi2.jpg" alt="">
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repudiandae doloribus iure, expedita est repellendus ipsum consequuntur facere eum reprehenderit voluptates nesciunt nobis harum sunt voluptatem suscipit tempore? Fuga et tempore repellendus obcaecati officia at beatae incidunt placeat dolorum pariatur.</p>
+        <p class="text1">Someone Famouse</p>
+      </div>
+      <div>
+        <img src="./img/testi3.jpg" alt="">
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repudiandae doloribus iure, expedita est repellendus ipsum consequuntur facere eum reprehenderit voluptates nesciunt nobis harum sunt voluptatem suscipit tempore? Fuga et tempore repellendus obcaecati officia at beatae incidunt placeat dolorum pariatur.</p>
+        <p class="text1">Someone Famouse</p>
+      </div>
+    </div>
+  </div>
+  <div class="contact" id="contact">
+    <h2><span>C</span>ontact Us</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="form">
+      <h3>Send Message</h3>
+      <input type="text" name="name" placeholder="Name">
+      <input type="email" name="email" placeholder="Email">
+      <textarea placeholder="Message" name="message" cols="30" rows="10"></textarea>
+      <a href="#">Send</a>
+    </div>
+  </div>
+  <section class="footer">
+    <p>Copyright 2020 <span>Online Tutorials </span>All Right Reserved</p>
+  </section>
+  <script type="text/javascript">
+  window.addEventListener('scroll', function() {
+    const header = document.querySelector('.header');
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+
+  function menuToggle() {
+    const menuToggle = document.querySelector('.menuToggle');
+    const navbar = document.querySelector('.navbar');
+    
+    menuToggle.classList.toggle('active');
+    navbar.classList.toggle('active');
+  };
+  </script>
+</body>
+</html>
